@@ -1,0 +1,75 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+ 
+}
+
+
+.page-link {
+  
+  width: 23px !important; 
+  height: 23px !important;
+  background-color: #EEEEEE; 
+  color: #404B52; /* Dark text color */
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 10px;
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #067E83; /* Teal color on hover */
+  color: #fff; 
+}
+
+.page-item.active .page-link,
+.page-item.active .page-link:hover {
+  background-color: #067E83 !important;
+  border-color: #067E83 !important;
+  color: #fff !important; 
+}
+
+.pagination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white; /* Optional: Adjust background color */
+  padding: 20px; /* Optional: Add padding */
+}
+
+
+.pagination-container > img {
+  width: 10px; /* Width for chevrons */
+  height: 10px; /* Height for chevrons */
+  background-color: #EEEEEE; /* Grey color */
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin: 0 5px; /* Adjust margin as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.pagination-container > img:hover {
+  background-color: #067E83; /* Teal color on hover */
+  color: #fff; 
+}
+
+.pagination-container > div {
+  width: 23px; /* Width for squares around chevrons */
+  height: 23px; /* Height for squares around chevrons */
+  background-color: #EEEEEE; /* Grey color */
+  border: 1px solid transparent;
+  border-radius: 3px;
+  margin: 0 5px; /* Adjust margin as needed */
+}

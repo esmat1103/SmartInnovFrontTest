@@ -1,0 +1,137 @@
+.stats-box{
+height: 170px;
+flex-shrink: 0;
+background-color: #FFFF;
+filter: drop-shadow(0px 10px 60px rgba(226, 236, 249, 0.50));
+border-radius: 10px;
+z-index: -9999 !important;
+
+
+}
+
+.statcarré {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0 ;
+  margin-right: 5px !important; 
+  border-radius:10%; 
+}
+
+
+.statcarré2{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 128px;
+  height: 110px;
+  flex-shrink: 0 ;
+  margin-right: 5px !important; 
+  border-radius:10%; 
+}
+
+
+.bg-blue{
+     background-color: #F4E8FF !important; 
+
+}
+
+.bg-green{
+    background-color: #DCFCE7!important; 
+}
+.bg-yellow{
+    background-color: #FFF4DE !important; 
+}
+.bg-pink{
+  background-color: #FFE2E6 !important;
+}
+.bg-lila{
+  background-color: #e5fdfd!important;
+}
+
+.bg-bluedb{
+  background-color: #C5DEFF!important;
+}
+  
+  .center{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+
+.bg-stat-circle-pink{
+  background-color:#FA5A7E ;
+}
+.bg-stat-circle-yellow{
+ background-color: #FF6E1D;
+}
+.bg-stat-circle-blue{
+background-color: #A7E0E0;
+}
+.bg-stat-circle-lila{
+  background-color: #B75DD9;
+}
+.bg-stat-circle-green{
+  background-color: #3CD958;
+}
+
+.bg-stat-circle-bluedb{
+  background-color: #006fff;
+}
+
+.small-circle {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 50%; 
+  
+}
+
+.center-text {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  font-size: 24px; 
+  color: black; 
+}
+
+
+
+
+
+/* employee stats table */
+
+.score-table {
+  width: 100%;
+  border-collapse: separate; 
+  border-radius: 10px; 
+  border-spacing: 0; /* Remove spacing between cells */
+  margin: 5px; 
+  padding: 10px; 
+}
+
+.score-table th,
+.score-table td {
+  font-size: 10px;
+  padding: 10px;
+  text-align: left;
+  padding-inline-end: 10px;
+  text-align: center;
+}
+
+.score-table th,
+.score-table th {
+  font-size: 12px; 
+}
+
+.amount {
+  text-align: right; /* Right align amount column */
+}
+
+
+
+

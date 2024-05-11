@@ -1,0 +1,49 @@
+.pl40{
+    padding-left: 40px;
+}
+
+.p56{
+    padding-left: 100px;
+    padding-right:100px ;
+}
+.pl56{
+    padding-left: 56px;
+}
+
+.pl80{
+    padding-left: 80px;
+}
+
+.mr80{
+    margin-right: 80px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+
+.pr-auto{
+    padding-left: auto;
+}
+
+.mt1{
+    margin-top: 2px;
+}
+.ml4{
+    margin-left: 14px;
+}
+
+.ml-5{
+   margin-left: 50px;
+}
+.mr-7{
+    margin-right: 50px;
+}
+.ml-2{
+    margin-left: 10px;
+}
+.pr-2{
+    padding-right: 10px;
+}
+.ml20{
+    margin-left: 20px;
+}
