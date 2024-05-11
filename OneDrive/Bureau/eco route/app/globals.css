@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Rajdhani:wght@300;400&display=swap');
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+  width: 250px;
+ 
+}
+
+.content {
+    flex: 1;
+}
+
+.center{
+  justify-content: center; 
+  align-items: center; 
+
+}
+.flex{
+   display: flex; 
+}
+
+
+.filter{
+  border-radius: 10px;
+  width: 154px;
+  height: 38px;
+  flex-shrink: 0;
+  left: auto;
+}
+
+.google-icon {
+  image-rendering: pixelated !important;
+}
+
+@import url('../app/styling/colors.css');
+@import url('../app/styling/fonts.css');
+@import url('../app/styling/paddings.css');
+@import url('../app/styling/sidebar/sidebar.css');
+@import url('../app/styling/main_content/stats-box.css');
+@import url('../app/styling/main_content/filling_level.css');
+@import url('../app/styling/main_content/tab-box.css');
+@import url('../app/styling/main_content/paginaion.css');
+@import url('../app/styling/login.css');
+@import url('../app/styling/buttons/add.css');
+@import url('../app/styling/popups/popups.css');
+@import url('../app/styling/popups/deleteModal.css');
+@import url('../app/styling/main_content/map.css');
+@import url('../app/styling/main_content/loader.css');
+@import url('../app/styling/popups/Notif.css');
+
+
+
+
+
+img {
+  height: auto !important;
+  
+}
+/* Remove autofill background color */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+/* Remove autofill background color and box shadow */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  background-color: transparent !important;
+}
+
+.image-style {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+

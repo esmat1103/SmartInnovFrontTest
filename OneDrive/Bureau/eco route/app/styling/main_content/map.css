@@ -1,0 +1,18 @@
+.expanded {
+    width: 100%;
+  }
+  
+  .map-container {
+    transition: width 0.5s;
+    overflow: hidden;
+  }
+  
+  .expand-button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+
+.map {
+  border-radius: 10px;
+}
