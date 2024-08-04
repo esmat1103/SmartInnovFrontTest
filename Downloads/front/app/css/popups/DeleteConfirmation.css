@@ -1,0 +1,60 @@
+.delete-confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-confirmation-container {
+    background-color: #1A1D22;
+    color: #B8BABF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    max-width: 90%; 
+  }
+  
+  .confirmation-message {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .confirm-button,
+  .cancel-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-button {
+    background-color:  rgba(8, 145, 127, 0.1);
+    border-radius: 10px;
+    color: #14B8CA;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family:"Nunito Sans", sans-serif;
+
+  }
+  
+  .cancel-button {
+    background-color:rgb(254,117,75, 0.1);
+    color: rgb(254,117,75);
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family:"Nunito Sans", sans-serif;
+  }
+  

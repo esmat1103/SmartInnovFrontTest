@@ -1,0 +1,41 @@
+.dropdownMenu {
+    background-color: #24282F; 
+    position: absolute;
+    top: 2.5rem; 
+    right: 0.5rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0.2, 0.2, 0.2, 0.5);
+    padding: 0.5rem;
+    z-index: 50; 
+  }
+  
+  .dropdownMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdownMenu li {
+    padding: 0.5rem;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .dropdownMenu li:hover {
+    background-color: #2b2d35; 
+    border-radius: 10px;
+    color: #5D69F3;
+  }
+  
+    
+  .dotsImageContainer {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+  }
+  .ZoominImageContainer{
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+
+  }
