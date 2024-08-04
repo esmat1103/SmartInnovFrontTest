@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.left-panel {
+  background-color: #5D69F3 ;
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 130px;
+}
+
+.left-content h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.left-content p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.right-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  background-color:#21242B ;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.triangle-icon {
+  position: absolute;
+  top: 30px; 
+  right: 40px; 
+}
+
+.form-container {
+  width: 70%;
+}
+
+form {
+  width: 100%;
+}
+
+form h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.input-with-icon .visibility-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-with-icon .visibility-icon.visible {
+  display: block; 
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"],
+.input-group input[type="text"] {
+  background-color: #21242B ;
+  width: 100%;
+  color: #B8BABF;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #5D69F3 ;
+  box-shadow: 0 0 0 1px rgba(93, 105, 243,0.9);
+}
+
+.input-group input:focus::placeholder {
+  color: #999;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #5D69F3  ;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color:  #6873f0  ;
+}
+
+.checkbox-container {
+  margin-bottom: 1rem;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #B8BABF;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.checkbox-container a {
+  color: #5D69F3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.checkbox-container a:hover {
+  color: #6873f0;
+}
+
+.checkbox-container input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid #5D69F3;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-container input[type="checkbox"]:checked {
+  background-color: #5D69F3;
+}
+
+.checkbox-container input[type="checkbox"]:checked::before {
+  content: '\2713';
+  font-size: 0.8rem;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 1rem;
+  font-size: 13px;
+}
+
+.forgot-password a {
+  color: #B8BABF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-password a:hover {
+  color: #5D69F3;
+}

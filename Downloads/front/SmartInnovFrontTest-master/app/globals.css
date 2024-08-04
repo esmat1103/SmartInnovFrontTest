@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import "flag-icons/css/flag-icons.min.css";
+
+@import url('../app/css/colors.css');
+@import url('../app/css/fonts.css');
+@import url('../app/css/paddings.css');
+
+@import url('../app/css/Sidebar/sidebar.css');
+@import url('../app/css/Navbar/navbar.css');
+
+@import url('../app/css/login/login.css');
+@import url('../app/css/login/verificationEmail.css');
+
+@import url('../app/css/Table/header.css');
+@import url('../app/css/Table/tab.css');
+@import url('../app/css/Table/TabBody.css');
+@import url('../app/css/Table/customCheckBox.css');
+
+@import url('../app/css/Content/pagination.css');
+
+@import url('../app/css/Content/date-filter.css');
+@import url('../app/css/Content/filter.css');
+@import url('../app/css/Content/search.css');
+
+@import url('../app/css/Content/add-button.css');
+@import url('../app/css/Content/delete-button.css');
+
+@import url('../app/css/popups/forms.css');
+@import url('../app/css/Content/alerts.css');
+@import url('../app/css/Content/complaint.css');
+@import url('../app/css/Content/statBox.css');
+@import url('../app/css/Content/complaints-form.css');
+@import url('../app/css/Content/homeDash.css');
+@import url('../app/css/Content/map.css');
+
+
+
+
+
+@import url('../app/css/popups/DeleteConfirmation.css');
+@import url('../app/css/popups/SensorsPopup.css');
+@import url('../app/css/popups/imageform.css');
+
+
+
+@import url('../app/css/Content/notification.css');
+
+
+
+
+
+.sidebar {
+    width: 15%; 
+    align-items: center;
+    height: 100vh;
+    border-right: 1px solid #21242B; 
+    background-color: #0B0D1A;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 7%;
+    
+}
+  
+
+.mt10{
+    margin-top: 100px;
+}
+
+.center{
+    text-align: center !important;
+}
+
+.center1{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+
+.flag-icon {
+    width: 25px !important;
+    height: auto !important;
+    margin-right: 5px !important;
+  }
+  
+.read-only {
+    cursor: not-allowed; 
+    opacity: 0.6; 
+  }
+  
+  .full-height {
+    height: 100vh;
+}
+
+ .custom-map-container {
+    border-radius:10px;
+    overflow: hidden;
+  }
+  
+  .leaflet-container {
+    background: none !important; 
+    outline-offset: 0 !important; 
+  }
+
+  .m{
+    margin-top: 14px;
+  }
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid gray;
+  z-index: 1000;
+}
+
