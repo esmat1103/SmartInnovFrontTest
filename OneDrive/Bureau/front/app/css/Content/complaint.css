@@ -1,0 +1,45 @@
+
+.table-containerC {
+    width: 100%;
+    overflow-x: auto;
+    max-height: 600px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 0px; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+
+  .filter-section {
+    position: relative;
+    display: flex;
+    max-width: 60%;
+    justify-content: space-around;
+    border-bottom: 1px solid #21242B;
+  }
+  
+  .filter, .active-filter {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    color: #B8BABF;
+  }
+  
+  .active-filter {
+    color:  #5D69F3;
+  }
+  
+  .line {
+    position: absolute;
+    bottom: 0;
+    height: 3px;
+    background-color:  #5D69F3    ;
+    transition: left 0.3s ease, width 0.3s ease;
+    will-change: left, width; 
+  }
+  

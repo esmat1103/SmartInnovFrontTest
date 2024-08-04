@@ -1,0 +1,200 @@
+.sensors-popup-overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; 
+  overflow-y: auto; 
+}
+
+.sensors-popup {
+  background-color: #1A1D22;
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  width: 90%; 
+  max-width: 600px; 
+  max-height: calc(100vh - 40px); 
+  overflow-y: auto; 
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  scrollbar-width: thin; 
+  scrollbar-color: #4A4E57 #21242B;
+}
+
+.sensors-popup-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px; 
+  border-radius: 10px;
+}
+.sensors-popup-input-container > * {
+  flex: 1 1 100%; 
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.sensors-popup-input-container input[type="text"],
+.sensors-popup-input-container input[type="date"],
+.sensors-popup-input-container select {
+  width: calc(100% - 10px); 
+  padding: 8px; 
+  border: 1px solid #4A4E57; 
+  border-radius: 10px;
+  background-color: #24282f;
+  color: #FFFFFF;
+  font-size: 12px; 
+}
+.sensors-popup-input-container label {
+  margin-left: 10px;
+  color: #A0A7B6;
+  font-size: 12px; 
+}
+.sensors-popup-input-container .export-options {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;  
+}
+.export-button {
+  background-color: #5D69F3;
+  color: white;
+  border: none;
+  padding: 7px 15px; 
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 18px;
+  transition: background-color 0.3s;
+  font-size: 12px; 
+  font-weight: 600;
+  height: 40px;
+  margin-left: 4%;
+}
+.export-button:hover {
+  background-color: #6a75f3;
+}
+
+.sensors-popup::-webkit-scrollbar {
+  width: 8px;
+}
+.sensors-popup::-webkit-scrollbar-track {
+  background-color: #21242B;
+}
+.sensors-popup::-webkit-scrollbar-thumb {
+  background-color: #4A4E57;
+  border-radius: 4px;
+}
+.sensors-popup::-webkit-scrollbar-thumb:hover {
+  background-color: #61656D;
+}
+.sensors-popup-input-container input[type="checkbox"] {
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px; 
+  height: 16px; 
+  margin-left: 6px; 
+  vertical-align: middle; 
+}
+.sensors-popup-input-container input[type="checkbox"]::before {
+  content: ""; 
+  display: inline-block;
+  width: 16px; 
+  height: 16px; 
+  background-color: #5D69F3; 
+  border: 1px solid #4A4E57;
+  border-radius: 4px; 
+}
+.sensors-popup-input-container input[type="checkbox"]:checked::before {
+  content: "\2713"; 
+  font-size: 12px; 
+  color: #FFFFFF; 
+  text-align: center; 
+  line-height: 16px;
+}
+
+.custom-date-input input[type="date"] {
+  background: url('/assets/calendar.svg') no-repeat right 10px center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 15px auto;
+  padding-right: 30px; 
+  height: 40px;
+}
+.custom-date-input input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+.custom-date-input input[type="date"]::-moz-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+
+
+.custom-date-input input[type="date"] {
+  background: url('/assets/calendar.svg') no-repeat right 10px center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-size: 15px auto;
+  padding-right: 30px; /* Adjust padding to fit the calendar icon */
+}
+.custom-date-input input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+.custom-date-input input[type="date"]::-moz-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+
+.sensors-popup-input-container select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 10px; 
+  background-image: url('/assets/chevron-down.svg'); 
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  border: 1px solid #77797d;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  background-size: 20px;
+  color: #B8BABF;
+  padding-left: 15px; 
+  font-size: 14px; 
+}
+
+.selected-sensors-pop {
+  margin-top: 1px;
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.selected-sensor-pop {
+  display: flex;
+  align-items: center;
+  background-color: #24282F;
+  color: #FE754B;
+  border: 1px solid #FE754B;
+  padding: 2px 8px;
+  margin-right: 7px;
+  border-radius: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 10px;
+}
+
+.remove-button {
+  margin-left: 5px;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  border-radius: 3px;
+}

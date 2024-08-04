@@ -1,0 +1,11 @@
+.error {
+    background-color:rgb(254,117,75, 0.3);
+    color: #FE754B;
+    border-radius: 10px;
+}
+
+.success {
+    background-color:  rgba(8, 145, 127, 0.1);
+    color: #14B8CA;
+    border-radius: 10px;
+}

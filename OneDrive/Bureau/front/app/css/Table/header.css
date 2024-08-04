@@ -1,0 +1,22 @@
+.table-header {
+  background-color: #21242B; 
+}
+
+.table-header th,
+.table-header-row th {
+  padding: 12px 10px; 
+  text-align: left;
+  background-color: #21242B; 
+  border-bottom: 1px solid #21242B;
+  color: #B8BABF;
+}
+
+.table-header-row th:first-child {
+  padding-left: 20px;
+  border-top-left-radius: 10px; 
+}
+
+.table-header-row th:last-child {
+  padding-right: 20px; 
+  border-top-right-radius:10px; 
+}

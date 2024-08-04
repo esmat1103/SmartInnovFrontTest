@@ -1,0 +1,29 @@
+.search-filter-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .search-input {
+    padding-right: 40px; 
+    border: 1px solid #ededef;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width: 300px; 
+    margin-right: 10px;
+    
+  }
+  
+  .placeholder-search {
+    position: absolute;
+    left: 40px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #B8BABF;
+  }
+  
