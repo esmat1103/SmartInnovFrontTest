@@ -1,0 +1,46 @@
+/* LeafletMap.css */
+
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background-color: #24282F; /* Dark background color for the popup */
+  border: none; /* Remove default border */
+  color: #e0e0e0; /* Light grey text color */
+}
+
+.custom-popup-content {
+  font-size: 11px;
+  color: #e0e0e0;
+  background-color: #24282F; /* Dark background color */
+  border-radius: 8px;
+  width: 150px; /* Adjusted width for a compact design */
+  text-align: center; /* Center align text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-popup-content strong {
+  margin-bottom: 4px;
+  font-weight: 700;
+  color: #ffffff; /* White color for emphasis */
+  cursor: pointer; /* Change cursor to pointer to indicate a clickable element */
+  text-decoration: underline; /* Underline text to indicate it's a link */
+}
+
+.custom-popup-content strong:hover {
+  color: #5D69F3; 
+}
+
+.custom-popup-content span {
+  display: block;
+  margin-bottom: 2px;
+  color: #b0b0b0; /* Light grey for less emphasis */
+}

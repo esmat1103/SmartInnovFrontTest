@@ -1,0 +1,43 @@
+.icons-container {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #21242B;
+  }
+  
+
+  .profile-container {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  }
+  
+  #profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 10px;
+  }
+  
+  .flag-button {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+    border: none;
+    outline: none !important; 
+}

@@ -1,0 +1,46 @@
+.date-filter-container {
+    position: relative;
+}
+  
+.date-picker {
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #21242B;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;  
+}
+  
+.calendar-icon {
+  margin-right: 10px; 
+}
+
+
+.calendar-icon-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  justify-content: end; 
+}
+
+
+
+.placeholder-text {
+    font-size: 14px;
+    color: #B8BABF;
+}
+
+.date-filter-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
