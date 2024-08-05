@@ -49,9 +49,9 @@ const SidebarC = () => {
         </div>
             <nav className="mt-10 mx-3">
                 <ul className="nunito">
-                    <li className={`mb-3 ${activePath === '/Client/home' ? 'active' : ''}`} onMouseEnter={() => setHovered('/Client/home')} onMouseLeave={() => setHovered('')}>
-                        <Link href="/Client/home" className="items-center flex">
-                            <Image src={activePath === '/Client/home' || hovered === '/Client/home' ? dashboardW : dashboardG} alt='dashboard' width={18} id="dashboard-icon" className='ml-4' />
+                    <li className={`mb-3 ${activePath === '/Client/Home/home' ? 'active' : ''}`} onMouseEnter={() => setHovered('/Client/Home/home')} onMouseLeave={() => setHovered('')}>
+                        <Link href="/Client/Home/home" className="items-center flex">
+                            <Image src={activePath === '/Client/home' || hovered === '/Client/Home/home' ? dashboardW : dashboardG} alt='dashboard' width={18} id="dashboard-icon" className='ml-4' />
                             <p className="f14 fw200 ml-2">{t('dashboard')}</p>
                         </Link>
                     </li>

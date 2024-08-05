@@ -1,4 +1,4 @@
-import LayoutH from '@components/Admin/LayoutH';
+import LayoutH from '@components/Admin/layoutH';
 import { getTranslations } from '@app/utils/getTranslations';
 import React, { useState, useEffect } from 'react';
 import HomeA from '@components/Admin/HomeDashContent/Home';
