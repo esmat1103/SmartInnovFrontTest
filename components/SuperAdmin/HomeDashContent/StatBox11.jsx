@@ -24,7 +24,6 @@ const StatBox11 = () => {
         console.log('Fetched sensor types:', sensorTypes);
         console.log('Fetched sensors:', sensors);
 
-        // Count sensors by type
         const typeCounts = sensors.reduce((acc, sensor) => {
           if (sensor.type) {
             acc[sensor.type] = (acc[sensor.type] || 0) + 1;
@@ -32,7 +31,6 @@ const StatBox11 = () => {
           return acc;
         }, {});
 
-        // Convert typeCounts to the format required by RadarChart
         const formattedData = Object.keys(typeCounts).map(type => ({
           type,
           count: typeCounts[type]

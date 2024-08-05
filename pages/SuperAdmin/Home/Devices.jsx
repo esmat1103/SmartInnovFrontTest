@@ -40,7 +40,6 @@ const DeviceZ = (props) => {
         <LayoutH>
             <div className="mt-5 bg-w">
                 <Device
-                   
                     admins={admins}
                     clients={clients}
                 />
